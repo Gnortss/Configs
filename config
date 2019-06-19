@@ -95,6 +95,7 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 for_window [class="Spotify"] move to workspace $ws10
+for_window [class="jetbrains-pycharm-ce"] move to workspace $ws3
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
